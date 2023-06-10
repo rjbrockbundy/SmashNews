@@ -1,0 +1,46 @@
+.forum-div:hover,
+.news-div:hover {
+  background: #5d6577;
+  cursor: pointer;
+}
+
+.forum-div > span,
+p {
+  text-overflow: ellipsis !important;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0vh 1vh 0vh 1vh !important;
+}
+.forum-col {
+  text-align: left;
+  font-weight: bold;
+}
+.forum-create-thread {
+  background: #7393b3 !important;
+  border: 0px !important;
+  border-top: 1px solid gray !important;
+}
+.forum-create-thread:hover {
+  background: #7aa5cf !important;
+  transition: background 0.1s;
+}
+.news-div,
+.forum-div {
+  box-shadow: 6px 8px 10px 5px #282c34;
+  background: #484e5c;
+  color: white;
+  margin-top: 1vh !important;
+  margin-left: 2vw !important;
+  margin-right: 2vw !important;
+}
+.forum-div {
+  margin: 0vh 1vw 0vh 1vw !important;
+  padding: 0.5vh;
+  border: 1px solid gray;
+  border-bottom: 0px;
+}
+.news-img {
+  padding: 1vh 1vh 1vh 1vh !important;
+  width: 7vw !important;
+  height: 7vw !important;
+}

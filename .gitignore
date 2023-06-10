@@ -1,0 +1,8 @@
+# Django #
+/forumbackend/forumbackend/__pycache__
+/forumbackend/backend/__pycache__
+/forumbackend/db.sqlite3
+/forumbackend/media
+
+# React #
+/forumfrontend/node_modules
